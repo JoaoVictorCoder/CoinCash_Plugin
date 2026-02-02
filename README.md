@@ -1,16 +1,21 @@
 <h1 align="center"> 
     CoinCash Plugin <br/>
     <img src="logo.png" height="300"/>
-    
 </h1>
 
-<details closed>
-<summary><h1> :memo: Dependencies </h1></summary>
- - https://github.com/FoxUshiha/DC-Coin-Bot
- - Oficial Website and API URL: https://bank.foxsrv.net/
+<details open>
+<summary><h2> :memo: Dependencies </h2></summary>
+<p>
+
+ - [Official API](https://bank.foxsrv.net/)
  - 1.20+ Minecraft(Paper)
 
+</p>
+
 </details>
+
+---
+
 Oficial Discord Bot: https://discord.com/oauth2/authorize?client_id=1391067775077978214
 
 Chrome Extension: https://chromewebstore.google.com/detail/coin-bank/lbojdaalcfajcjphlpphjchkenjpbemf
