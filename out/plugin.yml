@@ -1,5 +1,5 @@
 name: CoinCash
-version: 1.9
+version: 1.0.2
 main: com.foxsrv.coincash.CoinCash
 api-version: 1.20
 depend: [CoinCard]
@@ -17,7 +17,7 @@ commands:
 permissions:
   coincash.use:
     description: Allows using /cash command
-    default: false
+    default: true
   coincash.admin:
     description: Allows admin commands
     default: op

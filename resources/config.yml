@@ -1,19 +1,22 @@
-# Configuração da API
-API: "https://bank.foxsrv.net/"
+# Server Coin Card ID to do transactions from users to withdraw or deposit coins
+ServerCard: "e1301fadfc35"
 
-# Configurações de moeda
-Worth: 0.01  # Valor de 1 item em coins (custo de compra)
-Sell: 0.01 # Valor de venda de 1 item em coins (valor de revenda)
-amount: 1    # Quantidade de itens por unidade de coin
+# Cooldown between player actions in ticks (20 ticks = 1 second)
+Cooldown: 20
 
-# Item que será dado/vendido
-item: "GOLD_INGOT"
+# Queue interval in milliseconds between each transaction
+# Higher values prevent rate limiting but increase wait time
+QueueIntervalMs: 1010
 
-# Card do servidor (DEVE ser configurado)
-Card: "SEU_CARD_AQUI"
-
-# Cooldown em milissegundos
-cooldown_ms: 1000
-
-# Modo de compatibilidade com mods (true para itens de mods)
-mod_compatibility: true
+# The cash notes list to add or remove notes and their worth
+# These will be loaded into notes.dat on first startup
+Note List:
+  1:
+    name: "&e₿ Note"
+    item: "PAPER"
+    model: 1
+    lore:
+      1: ""
+      2: "&71 SAT"
+      3: ""
+    worth: "0.00000001"
